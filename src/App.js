@@ -1,12 +1,13 @@
+import Footer from "./Componetes/Footer";
+import Header from "./Componetes/Header";
+import Main from "./Componetes/Main";
 
 function App() {
   return( 
     <>
-        <div>
-            <p>
-                esta funcionando!!
-            </p>
-        </div>
+      <Header/>
+      <Main/> 
+      <Footer/>
     </>
   )
 }

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.main {
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #513737;
+}
+
+.main h1 {
+    font-size: 3rem;
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.FontAwesomeIcon > input {
+    width: 600px;
+    padding: 10px;
+    border-radius: 20px;
+    padding-right: 30px;
+    text-indent: 30px;
+}
+
+::placeholder {
+    font-size: 1rem;
+    position: relative;
+    right: -0%;
+}
+
+
+.searchIcon {
+    position: relative;
+    top: -10%;
+    left: -95%;
+}
+
+
