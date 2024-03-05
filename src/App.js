@@ -1,13 +1,9 @@
-import Footer from "./Componetes/Footer";
-import Header from "./Componetes/Header";
-import Main from "./Componetes/Main";
+import Rotas from "./Rotas"
 
 function App() {
   return( 
     <>
-      <Header/>
-      <Main/> 
-      <Footer/>
+      <Rotas/>
     </>
   )
 }

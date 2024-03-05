@@ -15,10 +15,13 @@
 .header h1 {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 29px;
+    color: white;
+    
 }
 
 
-.header a {
-    margin-left: 9px;
-    font-weight: 600;
+.Link {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
 }
