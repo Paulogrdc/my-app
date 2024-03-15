@@ -4,6 +4,7 @@
     color: white;
     text-align: center;
     padding: 2px;
-    position: absolute;
+    position: fixed;
+    bottom: 0;
     
 }

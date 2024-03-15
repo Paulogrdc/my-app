@@ -4,7 +4,7 @@ function Footer() {
     return(
         <footer className={style.footer}>
             <p>
-                Paullibary &copy; site desenvolvido por Paulo.
+                PaulAnimes &copy; site desenvolvido por Paulo.
             </p>
         </footer>
     )
