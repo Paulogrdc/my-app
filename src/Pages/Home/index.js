@@ -2,8 +2,10 @@ import Footer from "../../Componetes/Footer";
 import Header from "../../Componetes/Header";
 import BuscarAnimes from "../../Componetes/BuscarAnimes"
 import { useState, useEffect} from "react";
-import style from "./Home.module.css"     
+import style from "./Home.module.css"  
+import React from 'react'
 
+ 
 const api = "https://kitsu.io/api/edge" 
 
 function Home() {
@@ -12,13 +14,15 @@ function Home() {
 
     useEffect(() => {
         if(text) {
-            fetch(`${api}/anime?filter[text]=${text} `)
+            fetch(`${api}/anime?filter[text]=${text}&page[limit]=15`)
             .then((response)=> response.json())
             .then((response) =>{
                 setInfo(response)
             } )
         }
     },[text]) 
+
+    
 
     return (
         <>

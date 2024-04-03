@@ -3,6 +3,7 @@ import Home from "./Pages/Home"
 import Favoritos from "./Pages/Favoritos"
 
 
+
 function Rotas() {
    return(
    

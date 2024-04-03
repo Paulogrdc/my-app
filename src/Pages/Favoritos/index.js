@@ -1,7 +1,15 @@
+import Footer from "../../Componetes/Footer"
+import Header from "../../Componetes/Header"
+import style from "./Favoritos.module.css"
+
 function Favoritos() {
     return(
             <> 
-                <h1> esta funcionando</h1>
+                <Header/> 
+
+                <h1 className={style.h1}>Pagina não esta funcionando no momento!!</h1>
+
+                <Footer/> 
             </>
     )
 }
